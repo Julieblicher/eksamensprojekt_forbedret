@@ -1,0 +1,1644 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+body {
+	background: #E4F2F4;
+	font-family: 'Nixie One', cursive;
+	color: #5B5B5B;
+	overflow-x: hidden;
+}
+section {
+	height: 100vh;
+	padding-top: 50px;
+	display: block;
+}
+/*forside style*/
+#forside {
+	background: #A7D6DE;
+}
+.overskrift {
+	color: white;
+	text-align: center;
+	font-size: 2.5em;
+	position: absolute;
+	top: 150px;
+}
+.forsidebillede figure {
+	position: absolute;
+	left: 150px;
+	top: -60px;
+}
+/*projekt style*/
+.projektcontainer {
+	border-bottom: 5px solid #A7D6DE;
+}
+.flow1 img {
+	width: 60%;
+	height: auto;
+	margin-left: 210px;
+}
+.flow3 img {
+	width: 34%;
+	height: auto;
+}
+.flow4 img {
+	width: 34%;
+	height: auto;
+}
+.flow1 p {
+	margin-left: 210px;
+}
+.flow1 a {
+	text-decoration: none;
+	color: #5B5B5B;
+}
+.flow1 a:hover {
+	opacity: 0.8;
+}
+.flow3 p {
+	margin-left: 1%;
+}
+.flow3 a {
+	text-decoration: none;
+	color: #5B5B5B;
+}
+.flow3 a:hover {
+	opacity: 0.8;
+}
+.flow4 p {
+	margin-left: 1%;
+}
+.flow4 a {
+	text-decoration: none;
+	color: #5B5B5B;
+}
+.flow4 a:hover {
+	opacity: 0.8;
+}
+/*omkring style*/
+.fritid {
+	width: 90%;
+	background: #A7D6DE;
+	padding: 4%;
+	margin: 4%;
+	line-height: 27px;
+	text-align: justify;
+	margin-left: 170px;
+}
+.uddannelse {
+	width: 85%;
+	background: #A7D6DE;
+	padding: 2%;
+	margin: 4%;
+	line-height: 25px;
+	margin-left: 200px;
+	margin-top: 80px;
+}
+h3 {
+	font-size: 1.4em;
+}
+.omkringbillede figure {
+	position: absolute;
+	margin-top: -400px;
+	left: 750px;
+	z-index: -1;
+	opacity: 0.5;
+}
+/*kontakt style */
+.kontaktcontainer {
+	border-top: 5px solid #A7D6DE;
+}
+h1 {
+	margin-top: 10%;
+	font-size: 2em;
+}
+.kontaktbox {
+	margin-top: 2%;
+}
+.contact-form {
+	text-align: center;
+}
+.form-control {
+	width: 80%;
+	height: auto;
+	margin: 2% 2% 2% 40%;
+	padding: 2%;
+	border: none;
+	font-family: 'Nixie One', cursive;
+	font-size: 1.2em;
+	border-radius: 4px;
+	color: #5B5B5B;
+	background: white;
+}
+.submit {
+	width: 50%;
+	margin-left: 55%;
+	border-radius: 4px;
+}
+.submit:hover {
+	background: #A7D6DE;
+	color: #5B5B5B;
+}
+.kontaktbox figure {
+	width: 80%;
+	height: auto;
+	position: relative;
+	bottom: 115px;
+	right: 270px;
+	z-index: -1;
+	opacity: 0.5;
+}
+.kontaktoplysninger {
+	width: 25%;
+	background: #A7D6DE;
+	padding: 2%;
+	line-height: 27px;
+	position: relative;
+	right: 200px;
+	top: 80px;
+}
+.kontaktoplysninger h4 {
+	font-size: 1.4em;
+}
+.fa {
+	color: #5B5B5B;
+	padding: 4%;
+}
+li {
+	list-style: none;
+}
+/*logo + burgermenu style +pil*/
+.pilop img {
+	width: 40%;
+}
+.pilop {
+	position: fixed;
+	left: 1350px;
+	top: 760px;
+}
+#forside .logo {
+	width: 35%;
+	height: auto;
+	margin-left: 22%;
+	margin-top: -5%;
+}
+.logo {
+	width: 40%;
+	height: auto;
+	margin-top: -5%;
+}
+#forside .menuToggle {
+	display: block;
+	position: absolute;
+	top: 215px;
+	left: 85%;
+	z-index: 1;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.menuToggle {
+	display: block;
+	position: relative;
+	top: 100px;
+	left: 700px;
+	z-index: 1;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.menuToggle input {
+	display: block;
+	width: 40px;
+	height: 32px;
+	position: absolute;
+	top: -7px;
+	left: -5px;
+	cursor: pointer;
+	opacity: 0;
+	z-index: 2;
+	-webkit-touch-callout: none;
+}
+.menuToggle span {
+	display: block;
+	width: 33px;
+	height: 4px;
+	margin-bottom: 5px;
+	position: relative;
+	background: #5B5B5B;
+	border-radius: 3px;
+	z-index: 1;
+	transform-origin: 4px 0px;
+	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),  background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),  opacity 0.55s ease;
+}
+.menuToggle span:first-child {
+	transform-origin: 0% 0%;
+}
+.menuToggle span:nth-last-child(2) {
+	transform-origin: 0% 100%;
+}
+.menuToggle input:checked ~ span {
+	opacity: 1;
+	transform: rotate(45deg) translate(-2px, -1px);
+	background: #5B5B5B;
+}
+.menuToggle input:checked ~ span:nth-last-child(3) {
+	opacity: 0;
+	transform: rotate(0deg) scale(0.2, 0.2);
+}
+.menuToggle input:checked ~ span:nth-last-child(2) {
+	transform: rotate(-45deg) translate(0, -1px);
+}
+.menu {
+	position: absolute;
+	width: 250px;
+	margin: -100px 0 0 -50px;
+	padding: 50px;
+	padding-top: 120px;
+	background: #E4F2F4;
+	list-style-type: none;
+	-webkit-font-smoothing: antialiased;
+	transform-origin: 0% 0%;
+	transform: translate(130%, 0);
+	transition: transform 0.5s cubic-bezier(0, 0, 0.05, 1.0)
+}
+.menu li {
+	padding: 25px 10px;
+	margin-left: 20px;
+	font-size: 22px;
+}
+.menu2 {
+	position: absolute;
+	width: 250px;
+	margin: -100px 0 0 -50px;
+	padding: 50px;
+	padding-top: 120px;
+	background: #A7D6DE;
+	list-style-type: none;
+	-webkit-font-smoothing: antialiased;
+	transform-origin: 0% 0%;
+	transform: translate(130%, 0);
+	transition: transform 0.5s cubic-bezier(0, 0, 0.05, 1.0);
+}
+.menu2 li {
+	padding: 25px 10px;
+	margin-left: 20px;
+	font-size: 22px;
+}
+ul a {
+	text-decoration: none;
+	color: #5B5B5B;
+	font-weight: 600;
+}
+.menu a:hover {
+	color: #A7D6DE;
+}
+.menu2 a:hover {
+	color: #E4F2F4;
+}
+.menuToggle input:checked ~ ul {
+	transform: translateX(-200px);
+}
+/*footer*/
+.footer p {
+	text-align: center;
+}
+/*Drøm dit portfolio style*/
+.dromoverskrift h1 {
+	text-align: center;
+	position: relative;
+	top: -190px;
+	font-size: 3em;
+	margin-bottom: -5%;
+	color: #5B5B5B;
+}
+.dromoverskrift img {
+	width: 10%;
+	height: auto;
+	margin-top: 10%;
+}
+.dromrakke1 p {
+	line-height: 27px;
+	margin: 2% 10% 0 10%;
+	text-align: justify;
+}
+.dromrakke1 img {
+	width: 85%;
+	height: auto;
+}
+.dromrakke1 a {
+	font-size: 1.3em;
+	color: #5B5B5B;
+}
+.dromrakke2 img {
+	width: 90%;
+	height: auto;
+	margin-top: 10%;
+}
+.dromrakke3 h3 {
+	font-size: 1.6em;
+	margin: 5% 0 0 5%;
+}
+.dromrakke3 h4 {
+	margin: 5% 0 0 10%;
+}
+.layout p {
+	margin: 5% 0 15% 10%;
+	line-height: 27px;
+	text-align: justify;
+}
+.farver p {
+	margin: 5% 20% 15% 10%;
+	line-height: 27px;
+	text-align: justify;
+}
+/*Byg dit portfolio style*/
+.bygoverskrift h1 {
+	text-align: center;
+	position: relative;
+	top: -190px;
+	font-size: 3em;
+	margin-bottom: -5%;
+	color: #5B5B5B;
+}
+.bygoverskrift img {
+	width: 10%;
+	height: auto;
+	margin-top: 10%;
+}
+.bygrakke1 p {
+	line-height: 27px;
+	margin: 0 10% 0 10%;
+	text-align: justify;
+}
+.bygrakke1 img {
+	width: 85%;
+	height: auto;
+}
+.bygrakke1 a {
+	font-size: 1.3em;
+	color: #5B5B5B;
+	margin: 2% 10% 0 10%;
+}
+.bygrakke2 img {
+	width: 90%;
+	height: auto;
+	margin-top: 10%;
+	border: 1px solid #A7D6DE;
+}
+.bygrakke3 h3 {
+	font-size: 1.6em;
+	margin: 5% 0 0 5%;
+}
+.bygrakke3 h4 {
+	margin: 5% 0 0 10%;
+}
+.layout p {
+	margin: 5% 0 15% 10%;
+	line-height: 27px;
+	text-align: justify;
+}
+.farver p {
+	margin: 5% 20% 15% 10%;
+	line-height: 27px;
+	text-align: justify;
+}
+/*Byg en app style*/
+.appoverskrift h1 {
+	text-align: center;
+	position: relative;
+	top: -190px;
+	font-size: 3em;
+	margin-bottom: -5%;
+	color: #5B5B5B;
+}
+.appoverskrift img {
+	width: 10%;
+	height: auto;
+	margin-top: 10%;
+}
+.apprakke1 p {
+	line-height: 27px;
+	margin: 0 10% 0 10%;
+	text-align: justify;
+}
+.apprakke1 img {
+	width: 40%;
+	height: auto;
+}
+.apprakke1 a {
+	font-size: 1.3em;
+	color: #5B5B5B;
+	margin: 2% 10% 0 10%;
+}
+.apprakke2 h1 {
+	margin: 5% 0 0 5%;
+}
+.apprakke3 h3 {
+	margin: 5% 0 0 5%;
+}
+.ide p {
+	margin: 5% 0 5% 10%;
+	line-height: 27px;
+	text-align: justify;
+}
+.tekst p {
+	margin: 5% 10% 5% 10%;
+	line-height: 27px;
+	text-align: justify;
+}
+.apprakke4 img {
+	width: 100%;
+	height: auto;
+}
+.apprakke5 h1 {
+	margin: 5% 0 0 5%;
+}
+.apprakke6 h3 {
+	margin: 5% 0 0 5%;
+}
+.apprakke7 img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15%;
+}
+/*Sweetbot style*/
+.sweetoverskrift h1 {
+	text-align: center;
+	position: relative;
+	top: -190px;
+	font-size: 3em;
+	margin-bottom: -5%;
+	color: #5B5B5B;
+}
+.sweetoverskrift img {
+	width: 10%;
+	height: auto;
+	margin-top: 10%;
+}
+.sweetrakke1 p {
+	line-height: 27px;
+	margin: 0 10% 0 10%;
+	text-align: justify;
+}
+.sweetrakke1 img {
+	width: 40%;
+	height: auto;
+}
+.sweetrakke1 a {
+	font-size: 1.3em;
+	color: #5B5B5B;
+	margin: 2% 10% 0 10%;
+}
+.sweetrakke2 h1 {
+	margin: 5% 0 0 5%;
+}
+.sweetrakke3 h3 {
+	margin: 5% 0 0 5%;
+}
+.ide p {
+	margin: 5% 0 5% 10%;
+	line-height: 27px;
+	text-align: justify;
+}
+.tekst p {
+	margin: 5% 10% 5% 10%;
+	line-height: 27px;
+	text-align: justify;
+}
+.sweetrakke4 img {
+	width: 80%;
+	height: auto;
+}
+.sweetrakke5 h1 {
+	margin: 5% 0 0 5%;
+}
+.sweetrakke6 h3 {
+	margin: 5% 0 0 5%;
+}
+.sweetrakke7 img {
+	width: 80%;
+	height: auto;
+	margin-bottom: 15%;
+}
+/*Eksamensprojekt style*/
+.portfoliooverskrift h1 {
+	text-align: center;
+	position: relative;
+	top: -190px;
+	font-size: 3em;
+	margin-bottom: -5%;
+	color: #5B5B5B;
+}
+.portfoliooverskrift img {
+	width: 10%;
+	height: auto;
+	margin-top: 10%;
+}
+.portfoliorakke1 p {
+	line-height: 27px;
+	margin: 0 10% 0 10%;
+	text-align: justify;
+}
+.portfoliorakke1 a {
+	font-size: 1.2em;
+	margin: 0 1% 0 1%;
+	color: #5B5B5B;
+}
+.portfoliorakke1 img {
+	width: 100%;
+	height: auto;
+}
+.udgangspunkt h3 {
+	line-height: 27px;
+	margin: 5% 5% 2% 10%;
+	text-align: justify;
+}
+.udgangspunkt p {
+	line-height: 27px;
+	margin: 0 5% 0 10%;
+	text-align: justify;
+}
+.udgangspunkt2 p {
+	line-height: 27px;
+	margin: 11% 10% 0 5%;
+	text-align: justify;
+}
+.udgangspunkt a {
+	text-decoration: none;
+	color: blue;
+	font-weight: 800;
+}
+.design img {
+	width: 90%;
+	height: auto;
+	margin: -7% 10% 0 10%;
+}
+.design p {
+	line-height: 27px;
+	margin: 0 10% 0 10%;
+	text-align: justify;
+}
+.design h3 {
+	line-height: 27px;
+	margin: 5% 5% 2% 5%;
+	text-align: justify;
+}
+.design2 img {
+	width: 85%;
+	height: auto;
+	margin: 5% 10% 0 9%;
+}
+.malgruppe h3 {
+	line-height: 27px;
+	margin: 5% 5% 2% 10%;
+	text-align: justify;
+}
+.malgruppe p {
+	line-height: 27px;
+	margin: 0 5% 0 10%;
+	text-align: justify;
+}
+.persona p {
+	line-height: 27px;
+	margin: 11% 10% 0 5%;
+	text-align: justify;
+}
+.persona a {
+	text-decoration: none;
+	color: blue;
+	font-weight: 800;
+}
+.portfoliorakke7 img {
+	width: 70%;
+	height: auto;
+}
+.portfoliorakke8 img {
+	width: 90%;
+	height: auto;
+}
+.portfoliorakke9 img {
+	width: 80%;
+	height: auto;
+}
+.portfoliorakke3 h3 {
+	line-height: 27px;
+	margin: 5% 5% 2% 5%;
+	text-align: justify;
+}
+.portfoliorakke3 img {
+	width: 100%;
+	height: auto;
+	margin: 4% 10% 5% 7%;
+}
+.ganttkort p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.ganttkort a {
+	text-decoration: none;
+	color: blue;
+	font-weight: 800;
+}
+.portfoliorakke4 h3 {
+	line-height: 27px;
+	margin: 0 5% 2% 10%;
+	text-align: justify;
+}
+.portfoliorakke4 img {
+	width: 90%;
+	height: auto;
+	margin: 0 10% 5% 7%;
+}
+.projektstyring p {
+	line-height: 27px;
+	margin: 7% 10% 10% 10%;
+	text-align: justify;
+}
+.projektstyring a {
+	text-decoration: none;
+	color: blue;
+	font-weight: 800;
+}
+.portfoliorakke5 h3 {
+	line-height: 27px;
+	margin: 0 5% 2% 5%;
+	text-align: justify;
+}
+.portfoliorakke5 img {
+	width: 80%;
+	height: auto;
+	margin: 0 10% 5% 10%;
+}
+.brainstorm p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke6 img {
+	width: 60%;
+	height: auto;
+	margin: -25% 10% 0 20%;
+}
+.sitemap p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke7 img {
+	width: 60%;
+	height: auto;
+	margin: -17% 10% 5% 20%;
+}
+.skitser p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke8 img {
+	width: 80%;
+	height: auto;
+	margin: -7% 10% 5% 10%;
+}
+.moodboard p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke9 img {
+	width: 80%;
+	height: auto;
+	margin: -7% 10% 5% 10%;
+}
+.wireframes p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke10 img {
+	width: 80%;
+	height: auto;
+	margin: -7% 10% 5% 10%;
+}
+.mockups p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.portfoliorakke11 img {
+	width: 80%;
+	height: auto;
+	margin: -4% 10% 5% 10%;
+}
+.styletile p {
+	line-height: 27px;
+	margin: 0 10% 10% 10%;
+	text-align: justify;
+}
+.kodning h3 {
+	line-height: 27px;
+	margin: 5% 5% 2% 10%;
+	text-align: justify;
+}
+.kodning p {
+	line-height: 27px;
+	margin: 0 5% 15% 10%;
+	text-align: justify;
+}
+.fremadrettet h3 {
+	line-height: 27px;
+	margin: 5% 5% 2% 10%;
+	text-align: justify;
+}
+.freadrettet p {
+	line-height: 27px;
+	margin: 11% 10% 15% 5%;
+	text-align: justify;
+}
+
+/*iPad style*/
+@media handheld, only screen and (max-width: 768px) and (min-width: 414px) {
+/*forside style medium*/
+.overskrift {
+	font-size: 2em;
+	position: absolute;
+	top: 300px;
+}
+.forsidebillede figure {
+	position: absolute;
+	left: -100px;
+	top: 10px;
+}
+/*burgermenu + logo style + pil*/
+	.pilop img {
+		width:80%;
+	}
+.pilop {
+	position: fixed;
+	left: 655px;
+	top: 900px;
+}
+#forside .logo {
+	width: 35%;
+	margin-left: 7%;
+	margin-top: -5%;
+}
+.logo {
+	width: 37%;
+	margin-top: -5%;
+}
+.menu {
+	position: absolute;
+	padding: 50px;
+	padding-top: 120px;
+	transform-origin: 0% 0%;
+	transform: translate(100%, 0);
+	transition: transform 0.5s cubic-bezier(0, 0, 0.05, 1.0)
+	}
+	.menu2 {
+	transform: translate(100%, 0);
+	transition: transform 0.5s cubic-bezier(0, 0, 0.05, 1.0);
+	}		
+#forside .menuToggle {
+	top: 100px;
+	left: 650px;
+}
+#projekter .menuToggle {
+	top: -50px;
+	left: 280px;
+}
+#omkring .menuToggle {
+	top: -50px;
+	left: 280px;
+}
+#kontakt .menuToggle {
+	top: -50px;
+	left: 280px;
+}
+.menuToggle input:checked ~ ul {
+	transform: translateX(-200px);
+}
+/*projekt style medium*/
+#projekter h1 {
+	position: relative;
+	right: 100px;
+}
+.flow1 img {
+	width: 90%;
+	height: auto;
+	margin-left: 100px;
+}
+.flow3 img {
+	width: 53%;
+	height: auto;
+	margin-left: 80px;
+}
+.flow4 img {
+	width: 53%;
+	height: auto;
+	margin-left: 80px;
+	position: relative;
+	top: -28px;
+}
+.flow1 p {
+	margin-left: 100px;
+}
+.flow3 p {
+	margin-left: 83px;
+	position: relative;
+	top: -10px;
+}
+.flow4 p {
+	margin-left: 83px;
+	position: relative;
+	top: -27px
+}
+/*omkring style medium*/
+#omkring h1 {
+	position: relative;
+	right: 100px;
+}
+.fritid {
+	width: 70%;
+	margin-left: 30px;
+}
+.uddannelse {
+	width: 70%;
+	margin-left: -30px;
+	margin-top: 14px;
+}
+.omkringbillede figure {
+	position: absolute;
+	margin-top: -200px;
+	left: 200px;
+	z-index: -1;
+	opacity: 0.5;
+}
+.omkringbillede img {
+	width: 90%;
+	height: auto;
+	position: relative;
+	left: 100px;
+}
+/*kontakt style medium*/
+#kontakt h1 {
+	position: relative;
+	right: 100px;
+}
+.form-control {
+	width: 100%;
+	height: auto;
+	margin: 2% 2% 2% 40%;
+	padding: 2%;
+}
+.submit {
+	width: 50%;
+	margin-left: 55%;
+	border-radius: 4px;
+}
+.submit:hover {
+	background: #A7D6DE;
+	color: #5B5B5B;
+}
+.kontaktbox figure {
+	width: 80%;
+	height: auto;
+	position: relative;
+	bottom: 115px;
+	right: 270px;
+	z-index: -1;
+	opacity: 0.5;
+}
+.kontaktoplysninger {
+	width: 40%;
+	background: #A7D6DE;
+	padding: 2%;
+	line-height: 27px;
+	position: relative;
+	left: 370px;
+	top: -600px;
+}
+/*drøm dit portfolio style medium*/
+.dromoverskrift h1 {
+	text-align: center;
+	position: relative;
+	top: -100px;
+	font-size: 2.5em;
+	margin-bottom: -5%;
+}
+.dromrakke1 img {
+	width: 100%;
+	margin-top: 12px;
+}
+.dromrakke1 p {
+	margin: 5%;
+}
+.dromrakke3 h3 {
+	margin: 2%;
+}
+.dromrakke3 h4 {
+	margin: 5%;
+}
+.layout p {
+	margin: 5%;
+}
+.farver p {
+	margin: 5%;
+}
+/*byg dit portfolio style medium*/
+.bygoverskrift h1 {
+	top: -100px;
+	font-size: 2.5em;
+	margin-bottom: -5%;
+}
+.bygrakke1 img {
+	width: 100%;
+}
+.bygrakke1 p {
+	margin: 0 5% 0 5%;
+}
+.bygrakke1 a {
+	font-size: 1.2em;
+	margin: 5%;
+}
+.bygrakke3 h3 {
+	margin: 2%;
+}
+.bygrakke3 h4 {
+	margin: 5%;
+}
+.layout p {
+	margin: 5%;
+}
+.farver p {
+	margin: 5%;
+}
+/*byg en app style medium*/
+.appoverskrift h1 {
+	top: -100px;
+	font-size: 2.5em;
+	margin-bottom: -5%;
+}
+.apprakke1 p {
+	line-height: 27px;
+	margin: 0 5% 0 5%;
+	text-align: justify;
+}
+.apprakke1 img {
+	width: 49%;
+	height: auto;
+}
+.apprakke1 a {
+	font-size: 1.3em;
+	margin: 2% 10% 0 5%;
+}
+.apprakke2 h1 {
+	margin: 5% 0 0 5%;
+}
+.apprakke3 h3 {
+	margin: 5% 0 0 5%;
+}
+.ide p {
+	margin: 5%;
+}
+.tekst p {
+	margin: 5%;
+}
+.apprakke5 h1 {
+	margin: 5% 0 0 5%;
+}
+.apprakke6 h3 {
+	margin: 5% 0 0 5%;
+}
+.apprakke7 img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15%;
+}
+/*sweetbot style medium*/
+.sweetoverskrift h1 {
+	top: -100px;
+	font-size: 2.5em;
+	margin-bottom: -5%;
+}
+.sweetrakke1 p {
+	line-height: 27px;
+	margin: 0 5% 0 5%;
+}
+.sweetrakke1 img {
+	width: 49%;
+}
+.sweetrakke1 a {
+	font-size: 1.3em;
+	margin: 2% 5% 0 5%;
+}
+.sweetrakke2 h1 {
+	margin: 2%;
+}
+.sweetrakke3 h3 {
+	margin: 2%;
+}
+.ide p {
+	margin: 5% 0 5% 5%;
+}
+.tekst p {
+	margin: 5%;
+}
+.sweetrakke4 img {
+	width: 90%;
+}
+.sweetrakke5 h1 {
+	margin: 2%;
+}
+.sweetrakke6 h3 {
+	margin: 2%;
+}
+.sweetrakke7 img {
+	width: 90%;
+}
+/*portfolio eksamensprojekt style medium*/
+.portfoliooverskrift h1 {
+	top: -100px;
+	font-size: 2.5em;
+	margin-bottom: -5%;
+}
+.portfoliorakke1 p {
+	margin: 0 5% 0 5%;
+}
+.udgangspunkt h3 {
+	margin: 5% 5% 2% 5%;
+}
+.udgangspunkt p {
+	margin: 0 5% 0 5%;
+}
+.udgangspunkt2 p {
+	margin: 11% 5% 0 5%;
+}
+.design img {
+	width: 90%;
+	height: auto;
+	margin: 25% 5% 0 5%;
+}
+.design p {
+	margin: 0 5% 0 5%;
+}
+.design h3 {
+	margin: 2%;
+}
+.design2 img {
+	width: 90%;
+	margin: 30% 5% 0 5%;
+}
+.malgruppe h3 {
+	margin: 5% 5% 2% 5%;
+}
+.malgruppe p {
+	margin: 0 5% 0 5%;
+}
+.persona p {
+	margin: 11% 5% 0 5%;
+}
+.portfoliorakke3 h3 {
+	margin: 2%;
+}
+.portfoliorakke3 img {
+	margin: 20% 5% 5% 5%;
+}
+.ganttkort p {
+	margin: 0 5% 5% 5%;
+}
+.portfoliorakke4 h3 {
+	margin: 2%;
+}
+.portfoliorakke4 img {
+	width: 95%;
+	margin: 30% 5% 5% 5%;
+}
+.projektstyring p {
+	margin: 5%;
+}
+.portfoliorakke5 h3 {
+	margin: 2%;
+}
+.portfoliorakke5 img {
+	width: 100%;
+	margin: 10% 5% 5% 5%;
+}
+.brainstorm p {
+	margin: 0 5% 5% 5%;
+}
+.portfoliorakke6 img {
+	width: 90%;
+	margin: -15% 5% 0 5%;
+}
+.sitemap p {
+	margin: 0 5% 5% 5%;
+}
+.portfoliorakke7 img {
+	width: 95%;
+	margin: -30% 5% 5% 5%;
+}
+.skitser p {
+	margin: 0 5% 5% 5%;
+}
+.portfoliorakke8 img {
+	width: 90%;
+	margin: 20% 5% 0% 5%;
+}
+.moodboard p {
+	margin: 0 5% 5% 5%;
+}
+.portfoliorakke9 img {
+	width: 100%;
+	margin: 15% 5% 5% 5%;
+}
+.wireframes p {
+	margin: 0 5% 5% 5%;
+}
+.portfoliorakke10 img {
+	width: 95%;
+	margin: 30% 0% 5% 5%;
+}
+.mockups p {
+	margin: 0 5% 5% 5%;
+}
+.portfoliorakke11 img {
+	width: 95%;
+	margin: 30% 5% 5% 5%;
+}
+.styletile p {
+	margin: 0 5% 5% 5%;
+}
+.kodning h3 {
+	margin: 5%;
+}
+.kodning p {
+	margin: 0 5% 15% 5%;
+}
+.fremadrettet h3 {
+	margin: 5%;
+}
+.freadrettet p {
+	margin: 11% 5% 15% 5%;
+}
+}
+
+/*iPhone style*/
+@media handheld, only screen and (max-width: 414px) and (min-width:1px) {
+/*forside style small*/
+
+.overskrift {
+	font-size: 2em;
+	position: absolute;
+	top: 150px;
+}
+.forsidebillede figure {
+	position: absolute;
+	left: -150px;
+	top: -40px;
+}
+.forsidebillede img {
+	width: 800px;
+	height: auto;
+}
+/*burger menu style small + logo*/
+.pilop img {
+	width: 90%;
+}
+.pilop {
+	position: fixed;
+	left: 320px;
+	top: 550px;
+}
+#forside .logo {
+	width: 55%;
+	height: auto;
+	margin-left: 15%;
+	margin-top: -40%;
+}
+.logo {
+	width: 30%;
+	height: auto;
+	margin-top: -5%;
+}
+.menu {
+	width: 400px;
+	padding: 40px;
+	padding-top: 100px;
+	position: absolute;
+	margin: -100px 0 0 -50px;
+	transform: translate(40%, 0);
+	transition: transform 0.5s cubic-bezier(0, 0, 0.05, 1.0)
+}
+#forside .menuToggle {
+	top: 40px;
+	left: 300px;
+}
+#projekter .menuToggle {
+	top: -150px;
+	left: 280px;
+}
+#omkring .menuToggle {
+	top: -150px;
+	left: 280px;
+}
+#kontakt .menuToggle {
+	top: -150px;
+	left: 280px;
+}
+.menuToggle input:checked ~ ul {
+	transform: translateX(-270px);
+}
+.menu2 {
+	position: absolute;
+	width: 400px;
+	margin: -100px 0 0 -50px;
+	padding: 40px;
+	padding-top: 100px;
+	transform: translate(80%, 0);
+}
+/*projekt style small*/
+.flow1 img {
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+}
+.flow3 img {
+	width: 50%;
+	height: auto;
+}
+.flow4 img {
+	width: 50%;
+	height: auto;
+}
+.flow1 p {
+	margin-left: 0px;
+}
+/*omkring style small*/
+.fritid {
+	width: 90%;
+	line-height: 23px;
+	margin-left: 0px;
+	text-align: left;
+}
+.uddannelse {
+	width: 90%;
+	line-height: 20px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+h3 {
+	font-size: 1.2em;
+}
+/*kontakt style small*/
+.kontaktoplysninger {
+	width: 100%;
+	line-height: 23px;
+	position: relative;
+	right: 0px;
+	top: 0px;
+}
+.kontaktoplysninger h4 {
+	font-size: 1.2em;
+}
+.form-control {
+	margin: 1%;
+	font-size: 1em;
+	width: 80%;
+}
+.submit {
+	width: 60%;
+}
+/*drøm dit portfolio style small*/
+.dromoverskrift h1 {
+	top: 0px;
+	font-size: 1.5em;
+	margin-bottom: 5%;
+}
+.dromoverskrift img {
+	width: 20%;
+}
+.dromrakke1 p {
+	line-height: 23px;
+	margin: 2%;
+	text-align: justify;
+}
+.dromrakke1 img {
+	width: 100%;
+	height: auto;
+}
+.dromrakke1 a {
+	font-size: 1.2em;
+	color: #5B5B5B;
+	line-height: 23px;
+}
+.dromrakke2 img {
+	width: 100%;
+	height: auto;
+	margin-top: 3%;
+}
+.dromrakke3 h3 {
+	font-size: 1.2em;
+	margin: 2%;
+}
+.dromrakke3 h4 {
+	margin: 2%;
+}
+.layout p {
+	margin: 2%;
+	line-height: 23px;
+}
+.farver p {
+	margin: 2%;
+	line-height: 23px;
+}
+/*byg dit portfolio style small*/
+.bygoverskrift h1 {
+	top: 0px;
+	font-size: 1.5em;
+	margin-bottom: 5%;
+}
+.bygoverskrift img {
+	width: 20%;
+}
+.bygrakke1 p {
+	line-height: 23px;
+	margin: 2%;
+}
+.bygrakke1 img {
+	width: 100%;
+}
+.bygrakke1 a {
+	font-size: 1.2em;
+	margin: 2%;
+}
+.bygrakke2 img {
+	width: 100%;
+	margin-top: 2%;
+}
+.bygrakke3 h3 {
+	font-size: 1.4em;
+	margin: 2%;
+}
+.bygrakke3 h4 {
+	margin: 2%;
+}
+.layout p {
+	margin: 2%;
+	line-height: 23px;
+}
+.farver p {
+	margin: 2%;
+	line-height: 23px;
+}
+/*byg en app style small*/
+.appoverskrift h1 {
+	top: 0px;
+	font-size: 1.5em;
+	margin-bottom: 5%;
+}
+.appoverskrift img {
+	width: 20%;
+}
+.apprakke1 p {
+	line-height: 23px;
+	margin: 2%;
+}
+.apprakke1 img {
+	width: 49%;
+	height: auto;
+}
+.apprakke1 a {
+	font-size: 1.2em;
+	margin: 2%;
+}
+.apprakke2 h1 {
+	font-size: 1.5em;
+	margin: 2%;
+}
+.apprakke3 h3 {
+	margin: 2%;
+}
+.ide p {
+	margin: 2%;
+	line-height: 23px;
+	;
+}
+.tekst p {
+	margin: 2%;
+	line-height: 23px;
+}
+.apprakke5 h1 {
+	margin: 2%;
+	font-size: 1.5em;
+}
+.apprakke6 h3 {
+	margin: 2%;
+}
+/*sweetbot style small*/
+.sweetoverskrift h1 {
+	top: 0px;
+	font-size: 1.5em;
+}
+.sweetoverskrift img {
+	width: 20%;
+}
+.sweetrakke1 p {
+	line-height: 23px;
+	margin: 2%;
+}
+.sweetrakke1 img {
+	width: 49%;
+}
+.sweetrakke1 a {
+	font-size: 1.2em;
+	margin: 2%;
+}
+.sweetrakke2 h1 {
+	margin: 2%;
+	font-size: 1.5em;
+}
+.sweetrakke3 h3 {
+	margin: 2%;
+}
+.ide p {
+	margin: 2%;
+	line-height: 23px;
+}
+.tekst p {
+	margin: 2%;
+	line-height: 23px;
+}
+.sweetrakke5 h1 {
+	margin: 2%;
+	font-size: 1.5em;
+}
+.sweetrakke6 h3 {
+	margin: 2%;
+}
+/*portfolio eksamensprojekt style small*/
+.portfoliooverskrift h1 {
+	top: 0px;
+	font-size: 1.5em;
+	margin-bottom: 5%;
+}
+.portfoliooverskrift img {
+	width: 20%;
+}
+.portfoliorakke1 p {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke1 a {
+	font-size: 1.2em;
+	margin: 2%;
+}
+.udgangspunkt h3 {
+	line-height: 23px;
+	margin: 2%;
+}
+.udgangspunkt p {
+	line-height: 23px;
+	margin: 2%;
+}
+.udgangspunkt2 p {
+	line-height: 23px;
+	margin: 2%;
+}
+.design img {
+	width: 100%;
+	margin: 2%;
+}
+.design p {
+	line-height: 23px;
+	margin: 2%;
+}
+.design h3 {
+	line-height: 23px;
+	margin: 2%;
+}
+.design2 img {
+	width: 100%;
+	margin: 2%;
+}
+.malgruppe h3 {
+	line-height: 23px;
+	margin: 2%;
+}
+.malgruppe p {
+	line-height: 23px;
+	margin: 2%;
+}
+.persona p {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke7 img {
+	width: 100%;
+}
+.portfoliorakke8 img {
+	width: 100%;
+}
+.portfoliorakke9 img {
+	width: 100%;
+}
+.portfoliorakke3 h3 {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke3 img {
+	width: 100%;
+	margin: 2%;
+}
+.ganttkort p {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke4 h3 {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke4 img {
+	width: 100%;
+	margin: 2%;
+}
+.projektstyring p {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke5 h3 {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke5 img {
+	width: 100%;
+	margin: 2%;
+}
+.brainstorm p {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke6 img {
+	width: 100%;
+	margin: 2%;
+}
+.sitemap p {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke7 img {
+	width: 100%;
+	margin: 2%;
+}
+.skitser p {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke8 img {
+	width: 100%;
+	margin: 2%;
+}
+.moodboard p {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke9 img {
+	width: 100%;
+	margin: 2%;
+}
+.wireframes p {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke10 img {
+	width: 100%;
+	margin: 2%;
+}
+.mockups p {
+	line-height: 23px;
+	margin: 2%;
+}
+.portfoliorakke11 img {
+	width: 100%;
+	margin: 2%;
+}
+.styletile p {
+	line-height: 23px;
+	margin: 2%;
+}
+.kodning h3 {
+	line-height: 23px;
+	margin: 2%;
+}
+.kodning p {
+	line-height: 23px;
+	margin: 2%;
+}
+.fremadrettet h3 {
+	line-height: 23px;
+	margin: 2%;
+}
+.freadrettet p {
+	line-height: 23px;
+	margin: 2%;
+}
+}
