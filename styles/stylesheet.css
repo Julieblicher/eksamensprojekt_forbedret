@@ -40,17 +40,11 @@ h1 {
 .projektcontainer {
 	border-bottom: 5px solid #A7D6DE;
 }
-/*.flow1 img {
-	width: 60%;
-	height: auto;
-	margin-left: 210px;
-}*/
 .flow1 {
-	/*background: #A7D6DE;*/
 	border: 2px solid #5B5B5B;
 	border-radius: 3px;
-	width: 330px;
-	height: 190px;
+	width: 320px;
+	height: 180px;
 	margin: -30px 10px 10px 270px;
 }
 .flow1 img {
@@ -67,8 +61,8 @@ h1 {
 	font-size: 1.1em;
 }
 .flow2 {
-	width: 330px;
-	height: 190px;
+	width: 320px;
+	height: 180px;
 	margin: 10px;
 	margin-left: 270px;
 }
@@ -86,11 +80,11 @@ h1 {
 }
 .flow5 {
 	width: 330px;
-	height: 190px;
-	margin: 10px 10px 50px 270px;
+	height: 180px;
+	margin: 20px 10px 50px 270px;
 }
 .flow5 img {
-	width: 95%;
+	width: 90%;
 	height: auto;
 	margin-top: -20px;
 	margin-left: 15px;
@@ -105,8 +99,8 @@ h1 {
 }
 .flow3 {
 	background: #A7D6DE;
-	width: 220px;
-	height:295px;
+	width: 210px;
+	height:285px;
 	margin: -30px 10px 10px 40px;
 	border-radius: 3px;
 }
@@ -127,9 +121,9 @@ h1 {
 .flow4 {
 	border: 2px solid #5B5B5B;
 	border-radius: 3px;
-	width: 220px;
-	height:295px;
-	margin: 70px 10px 50px 40px;
+	width: 210px;
+	height:285px;
+	margin: 80px 10px 50px 40px;
 }
 .flow4 img {
 	width: 100%;
@@ -148,22 +142,38 @@ h1 {
 .flow1 a:hover {
 	opacity: 0.8;
 	cursor: pointer;
+	
+}
+.flow1:hover {
+	transform: scale(1.1);
 }
 .flow2 a:hover {
 	opacity: 0.8;
 	cursor: pointer;
 }
+.flow2:hover {
+	transform: scale(1.1);
+}
 .flow5 a:hover {
 	opacity: 0.8;
 	cursor: pointer;
+}
+.flow5:hover {
+	transform: scale(1.1);
 }
 .flow3 a:hover {
 	opacity: 0.8;
 	cursor: pointer;
 }
+.flow3:hover {
+	transform: scale(1.1);
+}
 .flow4 a:hover {
 	opacity: 0.8;
 	cursor: pointer;
+}
+.flow4:hover {
+	transform: scale(1.1);
 }
 /*omkring style*/
 .omkringcontainer h2 {
@@ -556,88 +566,131 @@ ul a {
 }
 .apprakke1 p {
 	line-height: 27px;
-	margin: 0 10% 0 10%;
+	margin: 0 10% 0 5%;
 	text-align: justify;
 }
-.apprakke1 img {
-	width: 40%;
+.apprakke1 .ver1 img {
+	width: 85%;
 	height: auto;
+	margin-left: 8%;
+}
+.apprakke1 .ver2 img {
+	width: 85%;
+	height: auto;
+	margin-left: -5%;
 }
 .apprakke1 a {
 	font-size: 1.3em;
 	color: #5B5B5B;
-	margin: 2% 10% 0 10%;
+	margin: 2% 10% 0 5%;
 }
 .apprakke2 h1 {
-	margin: 3% 0 -2% 5%;
+	margin: 3% 0 -2% 2.5%;
 }
 .apprakke3 h3 {
-	margin: 5% 0 0 5%;
+	margin: 5% 0 0 2.5%;
 }
 .apprakke3 .ide p {
-	margin: 2% 10% 5% 10%;
+	margin: 2% 10% 5% 5%;
 	line-height: 27px;
 	text-align: justify;
 }
 .apprakke3 .tekst p {
-	margin: 2% 10% 5% 0;
+	margin: 2% 10% 5% 5%;
 	line-height: 27px;
 	text-align: justify;
+}
+.apprakke4 {
+	margin-bottom: 5%;
 }
 .apprakke4 .en img {
 	width: 95%;
 	height: auto;
-	margin-left: 30%;
+	margin-left: 15%;
 }
 .apprakke4 .to img {
 	width: 95%;
 	height: auto;
-	margin-left: 22%;
+	margin-left: 8%;
 }
 .apprakke4 .tre img {
 	width: 95%;
 	height: auto;
-	margin-left: 15%
+	margin-left: 4%;
 }
 .apprakke4 .fire img {
 	width: 95%;
 	height: auto;
-	margin-left: 5%
+	margin-left: -5%;
 }
 .apprakke4 .fem img {
 	width: 95%;
 	height: auto;
-	margin-left: 2%
+	margin-left: -10%;
 }
 .apprakke4 .seks img {
 	width: 95%;
 	height: auto;
+	margin-left: -17%;
 }
 .apprakke4 .syv img {
 	width: 95%;
 	height: auto;
-	margin-right: 30%;
+	margin-left: -25%;
 }
 .apprakke5 h1 {
-	margin: 3% 0 -2% 5%;
+	margin: 3% 0 -2% 2.5%;
 }
 .apprakke6 h3 {
-	margin: 5% 0 0 5%;
+	margin: 5% 0 0 2.5%;
 }
 .apprakke6 .ide p {
-	margin: 2% 10% 5% 10%;
+	margin: 2% 10% 5% 5%;
 	line-height: 27px;
 	text-align: justify;
 }
 .apprakke6 .tekst p {
-	margin: 2% 10% 5% 0;
+	margin: 2% 10% 5% 5%;
 	line-height: 27px;
 	text-align: justify;
 }
-.apprakke7 img {
-	width: 100%;
+.apprakke7 {
+	margin-bottom: 10%;
+}
+.apprakke7 .otte img {
+	width: 95%;
 	height: auto;
-	margin-bottom: 15%;
+	margin-left: 15%;
+}
+.apprakke7 .ni img {
+	width: 95%;
+	height: auto;
+	margin-left: 8%;
+}
+.apprakke7 .ti img {
+	width: 95%;
+	height: auto;
+	margin-left: 4%;
+}
+.apprakke7 .elleve img {
+	width: 95%;
+	height: auto;
+	margin-left: -5%;
+}
+.apprakke7 .tolv img {
+	width: 95%;
+	height: auto;
+	margin-left: -10%;
+}
+.apprakke7 .tretten img {
+	width: 95%;
+	height: auto;
+	margin-left: -17%;
+}
+.apprakke7 .fjorten img {
+	width: 95%;
+	height: auto;
+	margin-left: -25%;
 }
 /*Sweetbot style*/
 .sweetoverskrift h1 {
@@ -655,48 +708,91 @@ ul a {
 }
 .sweetrakke1 p {
 	line-height: 27px;
-	margin: 0 10% 0 10%;
+	margin: 0 10% 0 5%;
 	text-align: justify;
 }
-.sweetrakke1 img {
-	width: 40%;
+.sweetrakke1 .ver1 img {
+	width: 85%;
 	height: auto;
+	margin-left: 8%;
+}
+.sweetrakke1 .ver2 img {
+	width: 85%;
+	height: auto;
+	margin-left: -5%;
 }
 .sweetrakke1 a {
 	font-size: 1.3em;
 	color: #5B5B5B;
-	margin: 2% 10% 0 10%;
+	margin: 2% 10% 0 5%;
 }
 .sweetrakke2 h1 {
-	margin: 5% 0 0 5%;
+	margin: 3% 0 -2% 2.5%;
 }
 .sweetrakke3 h3 {
-	margin: 5% 0 0 5%;
+	margin: 5% 0 0 2.5%;
 }
 .ide p {
-	margin: 5% 0 5% 10%;
+	margin: 3% 10% 0 5%;
 	line-height: 27px;
 	text-align: justify;
 }
 .tekst p {
-	margin: 5% 10% 5% 10%;
+	margin: 3% 10% 0 5%;
 	line-height: 27px;
 	text-align: justify;
 }
-.sweetrakke4 img {
-	width: 80%;
+.sweetrakke4 {
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+.sweetrakke4 .en img {
+	width: 85%;
 	height: auto;
+	margin-left: 11%;
+}
+.sweetrakke4 .to img {
+	width: 85%;
+	height: auto;
+	margin-left: 5%;
+}
+.sweetrakke4 .tre img {
+	width: 85%;
+	height: auto;
+}
+.sweetrakke4 .fire img {
+	width: 85%;
+	height: auto;
+	margin-left: -5%;
 }
 .sweetrakke5 h1 {
-	margin: 5% 0 0 5%;
+	margin: 3% 0 -2% 2.5%;
 }
 .sweetrakke6 h3 {
-	margin: 5% 0 0 5%;
+	margin: 5% 0 0 2.5%;
 }
-.sweetrakke7 img {
-	width: 80%;
+.sweetrakke7 {
+	margin-top: 3%;
+	margin-bottom: 10%;
+}
+.sweetrakke7 .fem img {
+	width: 85%;
 	height: auto;
-	margin-bottom: 15%;
+	margin-left: 11%;
+}
+.sweetrakke7 .seks img {
+	width: 85%;
+	height: auto;
+	margin-left: 5%;
+}
+.sweetrakke7 .syv img {
+	width: 85%;
+	height: auto;
+}
+.sweetrakke7 .otte img {
+	width: 85%;
+	height: auto;
+	margin-left: -5%;
 }
 /*Eksamensprojekt style*/
 .portfoliooverskrift h1 {
@@ -944,7 +1040,6 @@ ul a {
 	margin: 0% 10% 15% 6%;
 	text-align: justify;
 }
-
 /*iPad style*/
 @media handheld, only screen and (max-width: 768px) and (min-width: 414px) {
 /*forside style medium*/
@@ -984,6 +1079,7 @@ ul a {
 	transform: translate(100%, 0);
 	transition: transform 0.5s cubic-bezier(0, 0, 0.05, 1.0)
 	}
+	
 	.menu2 {
 	transform: translate(100%, 0);
 	transition: transform 0.5s cubic-bezier(0, 0, 0.05, 1.0);
@@ -994,58 +1090,56 @@ ul a {
 }
 #projekter .menuToggle {
 	top: -50px;
-	left: 280px;
+	left: 630px;
 }
 #omkring .menuToggle {
 	top: -50px;
-	left: 280px;
+	left: 630px;
 }
 #kontakt .menuToggle {
 	top: -50px;
-	left: 280px;
+	left: 630px;
 }
 .menuToggle input:checked ~ ul {
 	transform: translateX(-200px);
 }
 /*projekt style medium*/
-#projekter h1 {
-	position: relative;
-	right: 100px;
+.projektcontainer h2 {
+	font-size: 2.3em; 
+	margin: -5% 0 10% 0;
+	text-align: center;
 }
-.flow1 img {
-	width: 90%;
-	height: auto;
-	margin-left: 100px;
+.flow1 {
+	width: 320px;
+	height: 180px;
+	margin: -10px 10px 10px 50px;
 }
-.flow3 img {
-	width: 53%;
-	height: auto;
-	margin-left: 80px;
+.flow2 {
+	width: 320px;
+	height: 180px;
+	margin: 10px;
+	margin-left: 50px;
 }
-.flow4 img {
-	width: 53%;
-	height: auto;
-	margin-left: 80px;
-	position: relative;
-	top: -28px;
+.flow5 {
+	width: 330px;
+	height: 180px;
+	margin: 20px 10px 50px 50px;
 }
-.flow1 p {
-	margin-left: 100px;
+.flow3 {
+	width: 210px;
+	height:285px;
+	margin: -10px 10px 10px 50px;
 }
-.flow3 p {
-	margin-left: 83px;
-	position: relative;
-	top: -10px;
-}
-.flow4 p {
-	margin-left: 83px;
-	position: relative;
-	top: -27px
+.flow4 {
+	width: 210px;
+	height:285px;
+	margin: 80px 10px 50px 50px;
 }
 /*omkring style medium*/
-#omkring h1 {
-	position: relative;
-	right: 100px;
+.omkringcontainer h2 {
+	font-size: 2.3em; 
+	margin: -5% 0 10% 0;
+	text-align: center;
 }
 .fritid {
 	width: 70%;
@@ -1070,42 +1164,30 @@ ul a {
 	left: 100px;
 }
 /*kontakt style medium*/
-#kontakt h1 {
-	position: relative;
-	right: 100px;
+.kontaktcontainer h2 {
+	font-size: 2.3em; 
+	margin: -5% 0 10% 0;
+	text-align: center;
 }
 .form-control {
-	width: 100%;
-	height: auto;
-	margin: 2% 2% 2% 40%;
-	padding: 2%;
+	width: 80%;
 }
-.submit {
-	width: 50%;
-	margin-left: 55%;
-	border-radius: 4px;
-}
-.submit:hover {
-	background: #A7D6DE;
-	color: #5B5B5B;
+.ramme {
+	width: 55%;
+	left: 15px;
 }
 .kontaktbox figure {
 	width: 80%;
-	height: auto;
-	position: relative;
-	bottom: 115px;
-	right: 270px;
-	z-index: -1;
-	opacity: 0.5;
+	right: 300px;
+	top: 175px;
 }
-.kontaktoplysninger {
+.kontaktbox .kontaktoplysninger {
 	width: 40%;
-	background: #A7D6DE;
 	padding: 2%;
 	line-height: 27px;
 	position: relative;
-	left: 370px;
-	top: -600px;
+	left: 420px;
+	top:-700px;
 }
 /*drøm dit portfolio style medium*/
 .dromoverskrift h1 {
@@ -1358,6 +1440,10 @@ ul a {
 .styletile p {
 	margin: 0 5% 5% 5%;
 }
+.portfoliorakke12 img {
+	width: 95%;
+	margin: 30% 5% 5% 5%;
+}
 .kodning h3 {
 	margin: 5%;
 }
@@ -1406,7 +1492,7 @@ ul a {
 	margin-top: -40%;
 }
 .logo {
-	width: 30%;
+	width: 35%;
 	height: auto;
 	margin-top: -5%;
 }
@@ -1424,15 +1510,15 @@ ul a {
 	left: 300px;
 }
 #projekter .menuToggle {
-	top: -150px;
+	top: -90px;
 	left: 280px;
 }
 #omkring .menuToggle {
-	top: -150px;
+	top: -90px;
 	left: 280px;
 }
 #kontakt .menuToggle {
-	top: -150px;
+	top: -90px;
 	left: 280px;
 }
 .menuToggle input:checked ~ ul {
@@ -1447,23 +1533,43 @@ ul a {
 	transform: translate(80%, 0);
 }
 /*projekt style small*/
-.flow1 img {
-	width: 100%;
-	height: auto;
+.projektcontainer h2 {
+	font-size: 2em; 
+	margin: 0;
+	text-align: center;
+}
+.flow1 {
+	width: 280px;
+	height: 140px;
+	margin: 10px 10px 10px 0px;
+}
+.flow2 {
+	width: 280px;
+	height: 140px;
+	margin-bottom: 40px;
 	margin-left: 0px;
 }
-.flow3 img {
-	width: 50%;
-	height: auto;
+.flow5 {
+	width: 300px;
+	height: 130px;
+	margin: 20px 10px 50px 0px;
 }
-.flow4 img {
-	width: 50%;
-	height: auto;
+.flow3 {
+	width: 200px;
+	height:285px;
+	margin: 120px 10px 10px 0px;
 }
-.flow1 p {
-	margin-left: 0px;
+.flow4 {
+	width: 200px;
+	height:285px;
+	margin: 80px 10px 50px 0px;
 }
 /*omkring style small*/
+	.omkringcontainer h2 {
+	font-size: 2em; 
+	margin: 0;
+	text-align: center;
+}
 .fritid {
 	width: 90%;
 	line-height: 23px;
@@ -1480,6 +1586,11 @@ h3 {
 	font-size: 1.2em;
 }
 /*kontakt style small*/
+.kontaktcontainer h2 {
+	font-size: 2em; 
+	margin: 0;
+	text-align: center;
+}
 .kontaktoplysninger {
 	width: 100%;
 	line-height: 23px;
@@ -1489,6 +1600,10 @@ h3 {
 }
 .kontaktoplysninger h4 {
 	font-size: 1.2em;
+}
+.ramme {
+	width: 100%;
+	left: 0px;
 }
 .form-control {
 	margin: 1%;
@@ -1508,38 +1623,52 @@ h3 {
 	width: 20%;
 }
 .dromrakke1 p {
-	line-height: 23px;
-	margin: 2%;
-	text-align: justify;
+	line-height: 27px;
+	margin: 2% 0% 0 0%;
+	text-align: left;
 }
 .dromrakke1 img {
-	width: 100%;
-	height: auto;
-}
-.dromrakke1 a {
-	font-size: 1.2em;
-	color: #5B5B5B;
-	line-height: 23px;
-}
-.dromrakke2 img {
-	width: 100%;
+	width: 90%;
 	height: auto;
 	margin-top: 3%;
 }
-.dromrakke3 h3 {
-	font-size: 1.2em;
-	margin: 2%;
+.dromrakke1 a {
+	font-size: 1.3em;
+	color: #5B5B5B;
+	margin-top: 5%;
 }
-.dromrakke3 h4 {
-	margin: 2%;
+.dromrakke2 img {
+	width: 90%;
+	margin-top: 5%;
+	margin-left: 0%;
 }
-.layout p {
-	margin: 2%;
-	line-height: 23px;
+.dromrakke3 img {
+	width: 90%;
+	margin: 5% 0 0 0%;
 }
-.farver p {
-	margin: 2%;
-	line-height: 23px;
+.dromrakke4 img {
+	width: 90%;
+	margin: 5% 0 0 0;
+}
+.dromrakke5 h3 {
+	font-size: 1.6em;
+	margin: 5% 0 0 0%;
+}
+.dromrakke5 .layout h4 {
+	margin: 2% 0% 0 0%;
+}
+.dromrakke5 .farver h4 {
+	margin: 2% 0% 0 0;
+}
+.dromrakke5 .layout p {
+	margin: 2% 0% 0% 0%;
+	line-height: 27px;
+	text-align: left;
+}
+.dromrakke5 .farver p {
+	margin: 2% 0% 0 0;
+	line-height: 27px;
+	text-align: left;
 }
 /*byg dit portfolio style small*/
 .bygoverskrift h1 {
@@ -1551,34 +1680,43 @@ h3 {
 	width: 20%;
 }
 .bygrakke1 p {
-	line-height: 23px;
-	margin: 2%;
-}
-.bygrakke1 img {
-	width: 100%;
+	line-height: 27px;
+	margin: 0;
+	text-align: left;
 }
 .bygrakke1 a {
-	font-size: 1.2em;
-	margin: 2%;
+	font-size: 1.3em;
+	margin: 2% 5% 0 5%;
 }
 .bygrakke2 img {
-	width: 100%;
-	margin-top: 2%;
+	width: 90%;
+	margin: 5% 0 0 0%;
 }
-.bygrakke3 h3 {
-	font-size: 1.4em;
-	margin: 2%;
+.bygrakke3 img {
+	width: 90%;
+	margin: 5% 0 0 0%;
 }
-.bygrakke3 h4 {
-	margin: 2%;
+.bygrakke4 img {
+	width: 90%;
+	margin-top: 5%;
 }
-.layout p {
-	margin: 2%;
-	line-height: 23px;
+.bygrakke5 h3 {
+	font-size: 1.6em;
+	margin: 2% 0 0 0%;
 }
-.farver p {
-	margin: 2%;
-	line-height: 23px;
+.bygrakke5 .layout h4 {
+	margin:  2% 0% 0 0%;
+}
+.bygrakke5 .farver h4 {
+	margin:  2% 0% 0 0;
+}
+.bygrakke5 .layout p {
+	margin: 2% 0% 0 0%;
+	text-align: left;
+}
+.bygrakke5 .farver p {
+	margin: 2% 0% 0 0;
+	text-align: left;
 }
 /*byg en app style small*/
 .appoverskrift h1 {
@@ -1590,80 +1728,91 @@ h3 {
 	width: 20%;
 }
 .apprakke1 p {
-	line-height: 23px;
-	margin: 2%;
+	margin: 0%;
+	text-align: left;
 }
-.apprakke1 img {
-	width: 49%;
-	height: auto;
+.apprakke1 .ver1 img {
+	margin-left: 0%;
+}
+.apprakke1 .ver2 img {
+	margin-left: 0%;
 }
 .apprakke1 a {
-	font-size: 1.2em;
-	margin: 2%;
+	margin: 2% 5% 0 5%;
 }
 .apprakke2 h1 {
-	font-size: 1.5em;
-	margin: 2%;
+	margin: 2% 0 0% 0%;
 }
 .apprakke3 h3 {
-	margin: 2%;
+	margin: 2% 0 0 0%;
 }
-.ide p {
-	margin: 2%;
-	line-height: 23px;
-	;
+.apprakke3 .ide p {
+	margin: 2% 0% 5% 0%;
+	text-align: left;
 }
-.tekst p {
-	margin: 2%;
-	line-height: 23px;
+.apprakke3 .tekst p {
+	margin: 2% 0% 5% 0%;
+	text-align: left;
 }
 .apprakke5 h1 {
-	margin: 2%;
-	font-size: 1.5em;
+	margin: 2% 0 0% 0%;
 }
 .apprakke6 h3 {
-	margin: 2%;
+	margin: 2% 0 0 0%;
+}
+.apprakke6 .ide p {
+	margin: 2% 0% 5% 0%;
+	text-align: left;
+}
+.apprakke6 .tekst p {
+	margin: 2% 0% 5% 0%;
+	text-align: left;
 }
 /*sweetbot style small*/
 .sweetoverskrift h1 {
 	top: 0px;
 	font-size: 1.5em;
+	margin-bottom: 10%;
 }
 .sweetoverskrift img {
 	width: 20%;
 }
 .sweetrakke1 p {
-	line-height: 23px;
-	margin: 2%;
+	margin: 0%;
+	text-align: left;
 }
-.sweetrakke1 img {
-	width: 49%;
+.sweetrakke1 .ver1 img {
+	width: 85%;
+	margin-left: 0%;
+	margin-top: -20%;
+}
+.sweetrakke1 .ver2 img {
+	width: 85%;
+	margin-left: 0%;
+	margin-top: -30%;
 }
 .sweetrakke1 a {
-	font-size: 1.2em;
-	margin: 2%;
+	margin: 2% 5% 0 5%;
 }
 .sweetrakke2 h1 {
-	margin: 2%;
-	font-size: 1.5em;
+	margin: 2% 0 0% 0%;
 }
 .sweetrakke3 h3 {
-	margin: 2%;
+	margin: 2% 0 0 0%;
 }
 .ide p {
-	margin: 2%;
-	line-height: 23px;
+	margin: 3% 0% 0 0%;
+	text-align: left;
 }
 .tekst p {
-	margin: 2%;
-	line-height: 23px;
+	margin: 3% 0% 0 0%;
+	text-align: left;
 }
 .sweetrakke5 h1 {
-	margin: 2%;
-	font-size: 1.5em;
+	margin: 2% 0 0% 0%;
 }
 .sweetrakke6 h3 {
-	margin: 2%;
+	margin: 2% 0 0 0%;
 }
 /*portfolio eksamensprojekt style small*/
 .portfoliooverskrift h1 {
@@ -1811,13 +1960,17 @@ h3 {
 	width: 100%;
 	margin: 2%;
 }
+.flowchart p {
+	line-height: 23px;
+	margin: 2%;	
+	}
 .styletile p {
 	line-height: 23px;
 	margin: 2%;
 }
 .kodning h3 {
 	line-height: 23px;
-	margin: 2%;
+	margin: 0;
 }
 .kodning p {
 	line-height: 23px;
